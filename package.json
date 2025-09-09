@@ -1,0 +1,14 @@
+{
+  "name": "nicheweb-dev-registry",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "sync": "node scripts/sync_dns.js"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "cross-fetch": "^4.0.0"
+  }
+}

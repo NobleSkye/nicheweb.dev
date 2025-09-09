@@ -1,0 +1,11 @@
+{
+  "domain": "nicheweb.dev",
+  "records": [
+    {
+      "subdomain": "www",
+      "type": "CNAME",
+      "value": "example.com",
+      "owner": "initial"
+    }
+  ]
+}
